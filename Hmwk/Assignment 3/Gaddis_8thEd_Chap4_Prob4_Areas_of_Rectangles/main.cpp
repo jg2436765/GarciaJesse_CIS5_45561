@@ -25,9 +25,7 @@ int main(int argc, char** argv) {
     int width2;
     int area2;
     
-    //Input values
-    
-    //Process values -> Map inputs to Outputs
+    //Map inputs to Outputs
     cout << " Enter the length of the first rectangle: ";
     cin >> length1;
     
