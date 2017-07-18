@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Future_Value_Function_07112017_updated
+PROJECTNAME=Gaddis_8thEd_Chap6_Prob7_CelsiusTemp_Table
 
 # Active Configuration
 DEFAULTCONF=Debug
