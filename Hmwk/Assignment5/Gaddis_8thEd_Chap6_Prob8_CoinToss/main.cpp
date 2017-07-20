@@ -26,25 +26,24 @@ int main(int argc, char** argv) {
     //Declare variables
     int heads;
     int tails;
-    int nThrows = 2;
-    char coins;
+    int nThrows = 1;
+    char coin;
     
     //Initialize variables
-    cout<<"We are tossing two coins."<<endl;
-    cout<<"If the first coin lands on heads then it equals to 1."<<endl;
-    cout<<"If the second coin lands on tails then it equals to 2."<<endl;
-    cout<<"Or vise versa."<<endl;
+    cout<<"We are tossing one coin."<<endl;
+    cout<<"If the coin lands on heads then it equals 1."<<endl;
+    cout<<"If the coin lands on tails then it equals 2."<<endl;
     cout<<endl;
-    coinToss(heads,tails,nThrows,coins);   
+    coinToss(heads,tails,nThrows,coin);   
     
     //Exit stage right!
     return 0;
 }
 
-void coinToss(int heads,int tails,int nThrows,char coins){
+void coinToss(int heads,int tails,int nThrows,char coin){
     for(int thrw=1;thrw<=nThrows;thrw++){
-        coins=rand()%2+1;
-        if(coins == 1){
+        coin=rand()%2+1;
+        if(coin == 1){
             cout<<"Heads = 1 "<<endl;
         }else {
             cout<<"Tails = 2"<<endl;
